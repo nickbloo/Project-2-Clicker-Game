@@ -59,10 +59,28 @@ body, html {
 
 #title-label {
     display: flex;
+    font-weight: bolder;
     align-items: center;
     flex-direction: column;
 }
 
 .running-num {
     font-weight: bold;
+}
+
+.score-text {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.5em;
+}
+
+#click-score {
+    font-size: 3em;
+}
+
+button {
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: limegreen;
+    width: 8vw;
 }

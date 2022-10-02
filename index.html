@@ -11,15 +11,18 @@
 <body>
     <div class="flex-container">
         <div class="column" id="left-column">
+            <div id="click-score" class="score-text">Number of clicks: 
+                <span class="running-num"  id="score-count">0</span>
+            </div>
             <img src="0_oa0XcvM99Y5clDsj.png" id="click-img" alt="clicker">
             <div id="scorebox">
-                <div id="click-score">Number of clicks: 
-                    <span class="running-num"  id="score-count">0</span>
+                <div id="num-of-passive-clicks" class="score-text">Number of passive clicks per second: 
+                    <span class="running-num"  id="passive-count">0</span>
                 </div>
-                <div id="timer">Time wasted:
+                <div id="timer" class="score-text">Time wasted:
                     <span class="running-num" id="time-count">0</span>
                 </div>
-                <div id="data-collection">Data collected on you: 
+                <div id="data-collection" class="score-text">Data collected on you: 
                     <span class="running-num"  id="data-count">0</span>
                 </div>
             </div>
@@ -30,44 +33,44 @@
                 <div class="incrementer" id="prod1" hidden>
                     <p>Extra Clicker: <b>10 clicks</b></p>
                     <p>Generates 1 passive click per second</p>
-                    <span>Current amount: </span><span>0</span>
-                    <button>Buy</button>
+                    <span>Current amount: </span><span id="producer-count-1">0</span>
+                    <button id="button1">Buy</button>
                 </div>
                 <div class="incrementer" id="prod2" hidden>
                     <p>Super Clicker: <b>50 clicks</b></p>
                     <p>Generates 5 passive clicks per second</p>
-                    <span>Current amount: </span><span>0</span>
-                    <button>Buy</button>
+                    <span>Current amount: </span><span id="producer-count-2">0</span>
+                    <button id="button2">Buy</button>
                 </div>
                 <div class="incrementer" id="prod3" hidden>
                     <p>Mega Clicker: <b>250 clicks</b></p>
                     <p>Generates 50 passive clicks per second</p>
-                    <span>Current amount: </span><span>0</span>
-                    <button>Buy</button>
+                    <span>Current amount: </span><span id="producer-count-3">0</span>
+                    <button id="button3">Buy</button>
                 </div>
                 <div class="incrementer" id="prod4" hidden>
                     <p>Ultra Clicker: <b>1,000 clicks</b></p>
                     <p>Generates 100 passive clicks per second</p>
-                    <span>Current amount: </span><span>0</span>
-                    <button>Buy</button>
+                    <span>Current amount: </span><span id="producer-count-4">0</span>
+                    <button id="button4">Buy</button>
                 </div>
                 <div class="incrementer" id="prod5" hidden>
                     <p>God-Tier Clicker: <b>10,000 clicks</b></p>
                     <p>Generates 500 passive clicks per second</p>
-                    <span>Current amount: </span><span>0</span>
-                    <button>Buy</button>
+                    <span>Current amount: </span><span id="producer-count-5">0</span>
+                    <button id="button5">Buy</button>
                 </div>
                 <div class="incrementer" id="prod6" hidden>
                     <p>Overpowered Clicker: <b>100,000 clicks</b></p>
                     <p>Generates 25,000 passive clicks per second</p>
-                    <span>Current amount: </span><span>0</span>
-                    <button>Buy</button>
+                    <span>Current amount: </span><span id="producer-count-6">0</span>
+                    <button id="button6">Buy</button>
                 </div>
                 <div class="incrementer" id="prod7" hidden>
                     <p>Infinite Clicker: <b>1,000,000 clicks</b></p>
                     <p>Generates 1,000,000 passive clicks per second</p>
-                    <span>Current amount: </span><span>0</span>
-                    <button>Buy</button>
+                    <span>Current amount: </span><span id="producer-count-7">0</span>
+                    <button id="button7">Buy</button>
                 </div>
             </div>
         </div>
