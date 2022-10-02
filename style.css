@@ -2,17 +2,22 @@
     color-scheme: dark;
 }
 
-body {
+body, html {
     font-family: 'Courier New', Courier, monospace;
     color: limegreen;
     text-shadow: 5px 5px 20px chartreuse;
     max-height: 100%;
+    height: 100%;
 }
 
-img {
+#click-img {
     width: 50%;
     height: auto;
-    /* transition: transform ease-in 0.1s, box-shadow ease-in 0.25s; */
+    transition: scale .2s ease-in-out; 
+}
+
+#click-img:active { 
+    transform: scale(1.1); 
 }
 
 .flex-container {
@@ -31,20 +36,17 @@ img {
     flex-direction: column;
     margin-top: 0px;
     height: 100%;
-    /* max-height: 100%; */
 }
 
 .title-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     width: 30vw;
     border: 2px solid oldlace;
     margin-top: 5%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
     flex: 1 1 auto;
-    overflow-y: scroll;
 }
 
 .incrementer {
